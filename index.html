@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="This is an intro section make with JavaScript"/>
+  <link rel="icon" type="image/WebP" sizes="32x32" href="media/images/favicon-32x32.webp">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header>
+      <svg class="logo">
+        <use xlink:href="media/Icon/sprite.svg#logo"></use>
+      </svg>
+      
+      <nav>
+        <ul>
+            <li class="features">
+              <div>
+                Features
+                <svg class="icon arrow">
+                  <use xlink:href="media/Icon/sprite.svg#arrow"></use>
+                </svg>
+              </div>
+
+              <ul class="dropdown-f">
+                <li>
+                  <svg class="icon">
+                    <use xlink:href="media/Icon/sprite.svg#todo"></use>
+                  </svg>
+                  <a href="#">Todo List</a>
+                </li>
+                <li>
+                  <svg class="icon">
+                    <use xlink:href="media/Icon/sprite.svg#calendar"></use>
+                  </svg>
+                  <a href="#">Calendar</a>
+                </li>
+                <li>
+                  <svg class="icon">
+                    <use xlink:href="media/Icon/sprite.svg#reminders"></use>
+                  </svg>
+                  <a href="#">Reminders</a>
+                </li>
+                <li>
+                  <svg class="icon">
+                    <use xlink:href="media/Icon/sprite.svg#planning"></use>
+                  </svg>
+                  <a href="#">Planning</a>
+                </li>
+              </ul>
+            </li>
+
+
+            <li class="company">
+              <div>
+                Company
+                <svg class="icon arrow">
+                  <use xlink:href="media/Icon/sprite.svg#arrow"></use>
+                </svg>
+              </div>
+
+              <ul class="dropdown-c">
+                <li><a href="#">History</a></li>
+                <li><a href="#">Our Team</a></li>
+                <li><a href="#">Blog</a></li>
+              </ul>
+            </li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">About</a></li>
+
+        </ul>
+      </nav>
+
+      
+      <div class="clickers">
+        <button>Login</button>
+        <button>Register</button>
+      </div>
+
+      <svg class="icon menu">
+        <use xlink:href="media/Icon/sprite.svg#menu"></use>
+      </svg>
+  </header>
+
+  <section>
+    <div class="box">
+      <h2>Make remote work</h2>
+      <p>
+        Get your team in sync, no matter your location. Streamline processes, 
+        create team rituals, and watch productivity soar.
+      </p>
+      <a href="#">Learn more</a>
+      <div class="foot">
+        <svg class="l-icon">
+          <use xlink:href="media/Icon/sprite.svg#client-maker"></use>
+        </svg>
+        <svg class="l-icon">
+          <use xlink:href="media/Icon/sprite.svg#client-meet"></use>
+        </svg>
+        <svg class="l-icon">
+          <use xlink:href="media/Icon/sprite.svg#client-audiophile"></use>
+        </svg>
+        <svg class="l-icon">
+          <use xlink:href="media/Icon/sprite.svg#client-databiz"></use>
+        </svg>
+      </div>
+    </div>
+    <div class="box1">
+      <img src="media/images/image-hero-desktop.WebP" alt="">
+    </div>
+  </section>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
