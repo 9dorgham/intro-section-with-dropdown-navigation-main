@@ -90,8 +90,8 @@ section .box {
 section .box > * {
   margin: 1em 0;
 }
-section .box h2 {
-  font-size: 85px;
+section .box h1 {
+  font-size: clamp(1em, 7vw, 5.3em);
 }
 section .box p {
   line-height: 1.5;
