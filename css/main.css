@@ -137,11 +137,12 @@ section a:hover {
 nav .dropdown-f,
 nav .dropdown-c {
   position: absolute;
-  display: none;
+  right: 0%;
   width: 11em;
   box-shadow: var(--smoke);
   border-radius: 0.5em;
   padding: var(--p);
+  margin-top: 1em;
 }
 .dropdown-f li,
 .dropdown-c li {

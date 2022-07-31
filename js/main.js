@@ -6,25 +6,52 @@ let header = document.querySelector('header'),
   menu = document.querySelector('.menu'),
   c_Menu = document.createElement('img'),
   aside= document.createElement('aside');
-
+  drop1 = features.querySelector('.dropdown-f'),
+  drop2 = company.querySelector('.dropdown-c');
 
 // colse icon
 c_Menu.src= "/media/Icon/icon-close-menu.svg";
 c_Menu.className= 'close';
 
 
-features.onclick = () => {
-  features.querySelector('.dropdown-f').classList.add('show');
+
+// Remove Dropdown menus from DOM
+drop1.remove();
+drop2.remove();
+
+
+
+// Toggle For dropdown1
+let toggle = true;
+function test() {
+  if (toggle) {
+    features.append(drop1);
+  }else {
+    drop1.remove();
+  }
+
+  toggle = !toggle;
 }
-features.onmouseleave = () => {
-  features.querySelector('.dropdown-f').classList.remove('show');
+features.onclick = test;
+
+
+
+// Toggle For dropdown2
+let toggle2 = true;
+function test2() {
+  if (toggle2) {
+    company.append(drop2);
+  }else {
+    drop2.remove();
+  }
+
+  toggle2 = !toggle2;
 }
-company.onclick = () => {
-  company.querySelector('.dropdown-c').classList.add('show');
-}
-company.onmouseleave = () => {
-  company.querySelector('.dropdown-c').classList.remove('show');
-}
+company.onclick = test2;
+
+
+
+
 
 
 function watch(y) {
