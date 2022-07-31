@@ -2,15 +2,16 @@
   box-sizing: border-box;
   margin: 0%;
   padding: 0%;
-  font-family: 'Epilogue';
+  font-family: 'Epilogue', sans-serif;
   list-style: none;
   text-decoration: none;
 }
 
 /* typography */
 @font-face {
-  font-family: 'Epilogue';
+  font-family: 'Epilogue', sans-serif;
   src: url(../media/Font/Epilogue-VariableFont_wght.ttf);
+  font-display: swap;
 }
 
 /* Variables */
