@@ -10,7 +10,7 @@ let header = document.querySelector('header'),
   drop2 = company.querySelector('.dropdown-c');
 
 // colse icon
-c_Menu.src= "/media/Icon/icon-close-menu.svg";
+c_Menu.src= "./media/Icon/icon-close-menu.svg";
 c_Menu.className= 'close';
 
 
@@ -67,9 +67,9 @@ function watch(y) {
 
 function look(y) {
   if(y.matches) {
-    document.querySelector('.box1 img').src = "/media/images/image-hero-mobile.webp";
+    document.querySelector('.box1 img').src = "./media/images/image-hero-mobile.webp";
   }else {
-    document.querySelector('.box1 img').src = "/media/images/image-hero-desktop.WebP";
+    document.querySelector('.box1 img').src = "./media/images/image-hero-desktop.WebP";
   }
 }
 
